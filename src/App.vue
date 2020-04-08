@@ -2,12 +2,12 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <Chart />
+    <Chart :data=data />
   </div>
 </template>
 
 <script>
-import * as d3 from 'd3'
+// import * as d3 from 'd3'
 
 import HelloWorld from './components/HelloWorld.vue'
 import Chart from './components/Chart.vue'
