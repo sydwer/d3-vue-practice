@@ -8,6 +8,7 @@
 
 <script>
 // import * as d3 from 'd3'
+// re-add in when fetching and using hooks to save the data etc.
 
 import HelloWorld from './components/HelloWorld.vue'
 import Chart from './components/Chart.vue'
